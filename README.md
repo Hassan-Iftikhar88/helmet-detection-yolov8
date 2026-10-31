@@ -1,6 +1,6 @@
 # Helmet Detection System Using YOLOv8
 
-Task 1 | Author: Muhammad Hassan Iftikhar | Submitted to: Omar Farooq
+Author: Muhammad Hassan Iftikhar | Submitted to: Omar Farooq
 
 ## 1. Problem
 This project detects `helmet`, `no_helmet` and `person` in road and workplace images using YOLOv8. It can support basic safety monitoring by finding people who are not wearing helmets. The output is the image with bounding boxes, class labels and confidence scores.
