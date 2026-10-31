@@ -1,0 +1,11 @@
+Image,Actual Object,Model Prediction,Error Type,Possible Reason
+mixed-22,26 small riders and persons in a street scene,10 matched and 15 missed,False negative,Small far-away objects in a crowd
+mixed-15,Riders in dark blurred traffic,2 missed and 2 extra boxes,False negative / false positive,Poor lighting and overlapping riders
+mixed-3,Worker near cones,Overlapping helmet and no_helmet boxes on one head,False positive,Conflicting classes on the same head
+mixed-25,Crowd of motorbike riders,3 extra boxes,False positive,Background people not annotated
+no_helmet-33,Rider and passenger,1 missed and 2 extra boxes,False negative / false positive,Overlapping people on one bike
+helmet-14,Worker beside a machine,Extra person box (conf 0.45),False positive,Partly visible person possibly not annotated
+no_helmet-46,Rider with passenger,2 extra boxes,False positive,Second person partly hidden
+no_helmet-27,Three riders on a scooter,1 missed and 1 extra box,False negative / false positive,Small heads and occlusion
+no_helmet-88,Distant rider,1 extra box,False positive,Small object and background clutter
+helmet-41,Worker with a second worker behind,1 extra box (helmet 0.76),False positive,Background worker possibly not annotated
