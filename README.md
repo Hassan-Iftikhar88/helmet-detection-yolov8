@@ -43,7 +43,7 @@ Model comparison:
 Best class: no_helmet. Weakest class: person (small, hidden and overlapping people). With only 22 test images the differences between the two models are small, so YOLOv8n was kept as the final model because it is smaller and scored higher on validation.
 
 Plots: results/yolov8n_baseline/confusion_matrix.png and results/yolov8n_baseline/results.png (loss curves).
-
+Video inference: demo_output.mp4 (YOLOv8n, confidence 0.3, on a Pexels clip; see sources.md)
 ## 5. Predictions and error analysis
 The 22 test predictions are in `predictions/`. Error analysis is in `error_analysis.csv`: 31 extra boxes, 19 missed objects and 2 wrong-class errors. Causes: small and far-away objects, crowded scenes, poor lighting, overlapping riders and some missing annotations.
 
